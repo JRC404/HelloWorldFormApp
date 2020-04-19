@@ -12,7 +12,7 @@ namespace HelloWorld
 {
     public partial class Form1 : Form
     {
-        private const string V = "Hello, World";
+        private const string HelloWorld = "Hello, World";
 
         public Form1()
         {
@@ -21,7 +21,7 @@ namespace HelloWorld
 
         private void helloWorld_Click(object sender, EventArgs e)
         {
-            modifiyMe.Text = V;
+            modifiyMe.Text = $"I just thought I'd say...{HelloWorld}";
             MessageBox.Show("Hello, World.");
         }
 
