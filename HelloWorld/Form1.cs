@@ -10,7 +10,8 @@ using System.Windows.Forms;
 
 namespace HelloWorld
 {
-    public partial class Form1 : Form
+
+	public partial class Form1 : Form
     {
         private const string HelloWorld = "Hello, World";
 
